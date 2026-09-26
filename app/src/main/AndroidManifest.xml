@@ -8,7 +8,7 @@
         android:allowBackup="true"
         android:label="AI Coach"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
             android:name="com.example.aicoach.MainActivity"
             android:exported="true"
