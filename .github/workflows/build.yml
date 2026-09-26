@@ -19,9 +19,6 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@v3
-
     - name: Download MediaPipe Pose Model
       run: |
         mkdir -p app/src/main/assets
@@ -38,4 +35,3 @@ jobs:
       with:
         name: AICoach-APK
         path: app/build/outputs/apk/debug/app-debug.apk
-        
